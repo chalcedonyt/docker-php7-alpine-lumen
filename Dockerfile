@@ -13,6 +13,7 @@ RUN docker-php-ext-install \
 mcrypt \
 mbstring \
 mysqli \
+pcntl \
 pdo_mysql
 
 EXPOSE 9000
